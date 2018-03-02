@@ -7,3 +7,52 @@
 // styled using ID selectors but take the time to think about the elements
 // that are common across all components of the page and use class selectors
 // where appropriate.
+.container
+      {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+      }
+
+
+      .header
+      {
+        
+        height: 20%;
+        width: 100%;
+        background-color: aquamarine;
+      }
+      
+      .center
+      {
+        
+        height: 60%;
+        width: 100%;
+        background-color:azure;
+        display: flex;
+        flex-direction: row;
+      }
+      .footer
+      {
+        height: 20%;
+        width: 100%;
+        background-color: aquamarine;
+      }
+      .main
+      {
+        background-color: bisque;
+        flex: 4;
+        order: 2;
+      }
+      .left_menu
+      {
+        background-color: cadetblue;
+        flex:1;
+        order: 1;
+      }
+      .right_menu
+      {
+        background-color: cadetblue;
+        flex: 1;
+        order: 3;
+      }
